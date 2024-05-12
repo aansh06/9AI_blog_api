@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
     pip install -r requirements.txt
     ```
 3. Start & Connect to the local MongoDB server:
-    If you started MongoDB locally, the FastAPI application should connect to it automatically using the default connection settings. You don't need to make any changes.
+   If you started MongoDB locally, the FastAPI application should connect to it automatically using the default connection settings. You don't need to make any changes.
 
 4. Run the FastAPI server:
     ```
