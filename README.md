@@ -1,6 +1,5 @@
 # FastAPI Blogging 
 
-![FastAPI Logo](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
 
 ## Overview
 A simple blogging RESTful API built using  Python FastAPI, a modern web framework for building APIs with Python. It allows users to create, read, update, and delete blog posts, comment on posts, and like/dislike them. The data is stored in a MongoDB database.
@@ -31,13 +30,15 @@ To run this project locally, follow these steps:
     cd 9AI_blog_api
     pip install -r requirements.txt
     ```
+3. Start & Connect to the local MongoDB server:
+    If you started MongoDB locally, the FastAPI application should connect to it automatically using the default connection settings. You don't need to make any changes.
 
-3. Run the FastAPI server:
+4. Run the FastAPI server:
     ```
     uvicorn main:app --reload
     ```
 
-4. Open your browser and navigate to `http://localhost:8000` to access the API documentation and test the endpoints.
+5. Open your browser and navigate to `http://localhost:8000` to access the API documentation and test the endpoints.
 
 ## API Routes
 - **GET /posts/**: Retrieve all posts.
